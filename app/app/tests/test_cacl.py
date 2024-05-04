@@ -1,5 +1,8 @@
-from ..cacl import add
+
+
 from django.test import SimpleTestCase
+from app.cacl import add
+
 
 class CaclTestCase(SimpleTestCase):
     def test_add(self):
